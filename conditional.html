@@ -1,0 +1,26 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Conditional Activities</title>
+ </head>
+ <body>
+     <script>
+         
+         var birthYear = prompt("What is your birth year?");
+         var age = 2020 - birthYear;
+         if (age < 21) {
+             alert("No Sake for you!");
+         }
+         else {
+            var doEat = confirm("Do you like to eat Steak?");
+         
+            if (doEat) {
+             alert("Here's a Steak Sandwich!");
+         }
+         else alert("Here's a Tofu Stir-Fry!");
+         }
+     </script>
+ </body>
+ </html>
